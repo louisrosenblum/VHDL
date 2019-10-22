@@ -1,0 +1,37 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/__Lab8-1.auto.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/__Lab8-1.auto.qar
+Date:		Wed Apr 17 18:32:53 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/db/Lab8-1.cbx.xml
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/db/Lab8-1.qpf
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/db/top.cbx.xml
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.flow.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.map.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.map.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.asm.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.done
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.smsg
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.flow.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.jdi
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.map.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.map.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.pin
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sld
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sof
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sta.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sta.summary
+Lab8-1.qsf
+c5_pin_model_dump.txt
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+lab_8-1_tmp_archive.qarlog
+top.qws
+top.vhd
+	======= Total: 26 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

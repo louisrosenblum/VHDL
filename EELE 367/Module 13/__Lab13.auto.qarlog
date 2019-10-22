@@ -1,0 +1,35 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Module 13/__Lab13.auto.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Module 13/__Lab13.auto.qar
+Date:		Wed Apr 17 17:23:44 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Module 13/alu.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/char_decoder.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/clock_div_prec.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/computer.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/control_unit.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/cpu.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/data_path.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/db/Lab13.cbx.xml
+C:/Users/Louis/Desktop/EELE 367/Module 13/db/Lab13.qpf
+C:/Users/Louis/Desktop/EELE 367/Module 13/memory.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/output_files/Lab13.flow.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 13/output_files/Lab13.map.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 13/output_files/Lab13.map.summary
+C:/Users/Louis/Desktop/EELE 367/Module 13/rom_128x8_sync.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/rw_96x8_sync.vhd
+Lab13.qsf
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+computer_TB.txt
+computer_TB.vhd
+computer_TB.vhdl
+	======= Total: 24 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

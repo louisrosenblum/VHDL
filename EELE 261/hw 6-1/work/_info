@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+Edecoder_1hot_4to16
+Z0 w1530308356
+Z1 dC:/Users/Louis/Desktop/EELE 261/hw 6-1
+Z2 8C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16.vhd
+Z3 FC:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16.vhd
+l0
+L1
+V203R<NX=2nJlhbofJ8=hR3
+!s100 V0l:b]SY;Go4`<S8=6Uf?0
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1530308361
+!i10b 1
+Z6 !s108 1530308361.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16.vhd|
+Z8 !s107 C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Adecoder_1hot_4to16_arch
+DEx4 work 18 decoder_1hot_4to16 0 22 203R<NX=2nJlhbofJ8=hR3
+l11
+L7
+VRSH:2NI54U:E6^XWzikN^2
+!s100 PX5<BFX:Z2;JkIKd@7l4j3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Edecoder_1hot_4to16_tb
+Z11 w1530298022
+R1
+Z12 8C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16_TB.vhd
+Z13 FC:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16_TB.vhd
+l0
+L1
+VRZY95nRQ<T3XKD5JS5`H82
+!s100 [ZVDReNLhMCDUMncg7`Jk2
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16_TB.vhd|
+Z15 !s107 C:\Users\Louis\Desktop\EELE 261\hw 6-1\decoder_1hot_4to16_TB.vhd|
+!i113 1
+R9
+R10
+Adecoder_1hot_4to16_tb_arch
+DEx4 work 21 decoder_1hot_4to16_tb 0 22 RZY95nRQ<T3XKD5JS5`H82
+l19
+L4
+VO60lWMI9GLGCD`JAWLWVB3
+!s100 e=W`dLQHPX^9Tf;B;bU9h1
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10

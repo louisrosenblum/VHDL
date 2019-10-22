@@ -1,0 +1,13 @@
+{C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling entity demux_1to8_TB
+-- Compiling architecture demux_1to8_TB_arch of demux_1to8_TB
+
+} {} {}} {C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling entity demux_1to8
+-- Compiling architecture demux_1to8_arch of demux_1to8
+
+} {} {}}

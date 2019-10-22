@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/lab_10-1_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/lab_10-1_tmp_archive.qar
+Date:		Fri Mar 29 19:15:49 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/BCD.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/assignment_defaults.qdf
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/char_decoder.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/clock_div_prec.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/lab_10-1.qpf
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/rom_64x8_sync.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/top.qsf
+C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/top.vhd
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Mar 29 19:15:50 2019
+Source archive file:	C:/Users/Louis/Desktop/EELE 367/Module 10/Lab 10-1/lab_10-1_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 367/Module 12/Lab 12-1/
+		 - successfully.

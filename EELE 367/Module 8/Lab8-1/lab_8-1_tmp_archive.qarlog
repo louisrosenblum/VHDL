@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Lab8-1/lab_8-1_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Lab8-1/lab_8-1_tmp_archive.qar
+Date:		Mon Jan 21 19:19:17 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Lab8-1/lab_8-1.qpf
+C:/Users/Louis/Desktop/EELE 367/Lab8-1/top.qsf
+C:/Users/Louis/Desktop/EELE 367/Lab8-1/top.vhd
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Jan 21 19:19:18 2019
+Source archive file:	C:/Users/Louis/Desktop/EELE 367/Lab8-1/lab_8-1_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 367/Lab8-22_copy/
+		 - successfully.

@@ -1,0 +1,374 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity rom_64x8_sync is
+	port(clock: in std_logic;
+			address : out std_logic_vector(5 downto 0);
+			data_out : out std_logic_vector(7 downto 0));
+end entity;
+
+architecture rom_64x8_sync_arch of rom_64x8_sync is
+
+	signal int : integer;
+	
+
+	begin
+	
+	int <= 0;
+	address <= "000000";
+	
+	MEMORY : process(clock)
+	
+		begin
+
+		if(address = "000000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000001" and rising_edge(clock)) then
+		data_out <= "00010001";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000010" and rising_edge(clock)) then
+		data_out <= "00100010";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000011" and rising_edge(clock)) then
+		data_out <= "00110011";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000100" and rising_edge(clock)) then
+		data_out <= "01000100";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000101" and rising_edge(clock)) then
+		data_out <= "01010101";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000110" and rising_edge(clock)) then
+		data_out <= "01100110";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "000111" and rising_edge(clock)) then
+		data_out <= "01110111";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001000" and rising_edge(clock)) then
+		data_out <= "10001000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001001" and rising_edge(clock)) then
+		data_out <= "10011001";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001010" and rising_edge(clock)) then
+		data_out <= "10101010";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001011" and rising_edge(clock)) then
+		data_out <= "10111011";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001100" and rising_edge(clock)) then
+		data_out <= "11001100";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001101" and rising_edge(clock)) then
+		data_out <= "11011101";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001110" and rising_edge(clock)) then
+		data_out <= "11101110";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "001111" and rising_edge(clock)) then
+		data_out <= "11111111";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+
+		
+		
+		
+		
+		
+		elsif(address = "010000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010001" and rising_edge(clock)) then
+		data_out <= "00010001";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010010" and rising_edge(clock)) then
+		data_out <= "00100010";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010011" and rising_edge(clock)) then
+		data_out <= "00110011";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010100" and rising_edge(clock)) then
+		data_out <= "01000100";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010101" and rising_edge(clock)) then
+		data_out <= "01010101";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010110" and rising_edge(clock)) then
+		data_out <= "01100110";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "010111" and rising_edge(clock)) then
+		data_out <= "01110111";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011000" and rising_edge(clock)) then
+		data_out <= "10001000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011001" and rising_edge(clock)) then
+		data_out <= "10011001";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011010" and rising_edge(clock)) then
+		data_out <= "10101010";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011011" and rising_edge(clock)) then
+		data_out <= "10111011";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011100" and rising_edge(clock)) then
+		data_out <= "11001100";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011101" and rising_edge(clock)) then
+		data_out <= "11011101";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011110" and rising_edge(clock)) then
+		data_out <= "11101110";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "011111" and rising_edge(clock)) then
+		data_out <= "11111111";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100001" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100010" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100011" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100100" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100101" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100110" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "100111" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101001" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101010" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101011" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101100" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101101" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101110" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "101111" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110001" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110010" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110011" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110100" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110101" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110110" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "110111" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111000" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111001" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111010" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111011" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111100" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111101" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111110" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		elsif(address = "111111" and rising_edge(clock)) then
+		data_out <="000000";
+		address <= std_logic_vector(to_unsigned(0,6));
+		int <= 0;
+		
+		else
+		
+		data_out <="000000";
+		
+		address <= std_logic_vector(to_unsigned(int+1,6));
+		int <= int +1;
+		
+		end if;
+		
+		
+		
+		
+		
+		
+		
+		end process;
+
+
+
+
+
+
+
+
+end architecture;

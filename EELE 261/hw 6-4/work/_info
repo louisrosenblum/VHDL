@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Louis/Desktop/EELE 261/hw 6-3
+Edemux_1to8
+Z0 w1530383817
+Z1 dC:/Users/Louis/Desktop/EELE 261/hw 6-4
+Z2 8C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd
+Z3 FC:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd
+l0
+L1
+VC02IC^oAT@5m?4fDJDP[_0
+!s100 dZfB:=c1C]QSUKAlXL>Qo3
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1530383824
+!i10b 1
+Z6 !s108 1530383824.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd|
+Z8 !s107 C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Ademux_1to8_arch
+Z11 DEx4 work 10 demux_1to8 0 22 C02IC^oAT@5m?4fDJDP[_0
+l10
+L8
+V]Y7H8Fl;^o=JXob9Rh=a_1
+!s100 _WdSVnL[2N0gODQSdN2cE1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Edemux_1to8_tb
+Z12 w1530381724
+R1
+Z13 8C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd
+Z14 FC:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd
+l0
+L1
+Vj0jl<6];AZ:@QKiVQ>lJE1
+!s100 j?eEoP<N5L2h9DmJB:X0=2
+R4
+32
+Z15 !s110 1530383396
+!i10b 1
+Z16 !s108 1530383396.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd|
+Z18 !s107 C:/Users/Louis/Desktop/EELE 261/hw 6-4/demux_1to8_TB.vhd|
+!i113 1
+R9
+R10
+Ademux_1to8_tb_arch
+DEx4 work 13 demux_1to8_tb 0 22 j0jl<6];AZ:@QKiVQ>lJE1
+l21
+L4
+V`U4d>;7=k_PCD[`^1T@]D2
+!s100 8nBP6aQJB095]P@jYg8HJ0
+R4
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R9
+R10

@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer_tmp_archive.qar
+Date:		Wed Apr 17 18:30:33 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Module 13/char_decoder.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13/clock_div_prec.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/alu.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/char_decoder.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/clock_div_prec.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/computer.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/computer_TB.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/control_unit.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/cpu.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/data_path.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/memory.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/rom_128x8_sync.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy/rw_96x8_sync.vhd
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/DE0_CV_golden_top.v
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer.qpf
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer.qsf
+C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer_assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Apr 17 18:30:34 2019
+Source archive file:	C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY/computer_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 367/Module 13_copy_COPY_copy/
+		 - successfully.

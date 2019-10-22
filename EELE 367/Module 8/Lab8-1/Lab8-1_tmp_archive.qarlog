@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/Lab8-1_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/Lab8-1_tmp_archive.qar
+Date:		Wed Apr 17 18:32:53 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/Lab8-1.qpf
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/Lab8-1.qsf
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/c5_pin_model_dump.txt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/lab_8-1_tmp_archive.qarlog
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.flow.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.map.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/Lab8-1.map.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.asm.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.done
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.smsg
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.fit.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.flow.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.jdi
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.map.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.map.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.pin
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sld
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sof
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sta.rpt
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/output_files/top.sta.summary
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/top.qws
+C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/top.vhd
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 24 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Apr 17 18:32:54 2019
+Source archive file:	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1/Lab8-1_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 367/Module 8/Lab8-1_copy/
+		 - successfully.

@@ -1,0 +1,30 @@
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/control_unit.vhd
+ts:1555530262
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/cpu.vhd
+ts:1555275698
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/rom_128x8_sync.vhd
+ts:1555530170
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/memory.vhd
+ts:1555294075
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/alu.vhd
+ts:1555442250
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/data_path.vhd
+ts:1555528967
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/clock_div_prec.vhd
+ts:1555540430
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/char_decoder.vhd
+ts:1555540335
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/computer.vhd
+ts:1555543405
+init:
+file:C:/Users/Louis/Desktop/EELE 367/Module 13/rw_96x8_sync.vhd
+ts:1555293182
+init:

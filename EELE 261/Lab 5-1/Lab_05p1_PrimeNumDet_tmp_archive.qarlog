@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 261/Lab 5-1/Lab_05p1_PrimeNumDet_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 261/Lab 5-1/Lab_05p1_PrimeNumDet_tmp_archive.qar
+Date:		Sat Jun 30 11:48:12 2018
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 261/Lab 5-1/Lab_05p1_PrimeNumDet.qpf
+C:/Users/Louis/Desktop/EELE 261/Lab 5-1/top.qsf
+C:/Users/Louis/Desktop/EELE 261/Lab 5-1/top.vhd
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Jun 30 11:48:14 2018
+Source archive file:	C:/Users/Louis/Desktop/EELE 261/Lab 5-1/Lab_05p1_PrimeNumDet_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 261/Lab 6-1/
+		 - successfully.

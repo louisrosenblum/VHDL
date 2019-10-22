@@ -1,0 +1,18 @@
+/* clock_div_prec.vhd 
+
+Maximum Value of Counter to Achieve Divided Clock of 1 Hz = 25 mil
+• Maximum Value of Counter to Achieve Divided Clock of 10 Hz = 2.5 mil
+• Maximum Value of Counter to Achieve Divided Clock of 100 Hz = 250k
+• Maximum Value of Counter to Achieve Divided Clock of 1k Hz = 25k
+*/
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity clock_div_prec is
+ port (Clock_in : in std_logic;
+ Reset : in std_logic;
+ Sel : in std_logic_vector (1 downto 0);
+ Clock_out : out std_logic);
+end entity;

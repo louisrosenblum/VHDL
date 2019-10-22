@@ -1,0 +1,79 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity rom_16x8_sync is
+     port (Clock    : in  std_logic;
+           Address  : in  std_logic_vector(3 downto 0);
+           Data_Out : out std_logic_vector(7 downto 0));
+end entity;
+
+architecture rom_16x8_sync_arch of rom_16x8_sync is
+
+begin
+
+
+	MEMORY: process(Address)
+		begin
+
+		if(Address = "0000") then
+		Data_Out <= "11111111";
+		elsif(Address = "0001") then
+		Data_Out <= "11101110";
+
+		elsif(Address = "0010") then
+		Data_Out <= "11011101";
+
+		elsif(Address = "0011") then
+		Data_Out <= "11001100";
+
+		elsif(Address = "0100") then
+		Data_Out <= "10111011";
+
+		elsif(Address = "0101") then
+		Data_Out <= "10101010";
+
+		elsif(Address = "0110") then
+		Data_Out <= "10011001";
+
+		elsif(Address = "0111") then
+		Data_Out <= "10001000";
+
+		elsif(Address = "1000") then
+		Data_Out <= "01110111";
+
+		elsif(Address = "1001") then
+		Data_Out <= "01100110";
+
+		elsif(Address = "1010") then
+		Data_Out <= "01010101";
+
+		elsif(Address = "1011") then
+		Data_Out <= "01000100";
+
+		elsif(Address = "1100") then
+		Data_Out <= "00110011";
+
+		elsif(Address = "1101") then
+		Data_Out <= "00100010";
+
+		elsif(Address = "1110") then
+		Data_Out <= "00010001";
+
+		elsif(Address = "1111") then
+		Data_Out <= "00000000";
+
+		else
+		Data_Out <= "10101011";
+		
+		end if;
+
+
+
+	end process;
+
+
+
+
+
+
+end architecture;

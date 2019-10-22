@@ -1,0 +1,99 @@
+|top
+SW[0] => binary_display:C0.BIN_IN
+SW[0] => LEDR[0].DATAIN
+SW[1] => binary_display:C1.BIN_IN
+SW[1] => LEDR[1].DATAIN
+SW[2] => binary_display:C2.BIN_IN
+SW[2] => LEDR[2].DATAIN
+SW[3] => binary_display:C3.BIN_IN
+SW[3] => LEDR[3].DATAIN
+LEDR[0] << SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] << SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] << SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << SW[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] << binary_display:C0.HEX_OUT[0]
+HEX0[1] << binary_display:C0.HEX_OUT[1]
+HEX0[2] << binary_display:C0.HEX_OUT[2]
+HEX0[3] << binary_display:C0.HEX_OUT[3]
+HEX0[4] << binary_display:C0.HEX_OUT[4]
+HEX0[5] << binary_display:C0.HEX_OUT[5]
+HEX0[6] << binary_display:C0.HEX_OUT[6]
+HEX1[0] << binary_display:C1.HEX_OUT[0]
+HEX1[1] << binary_display:C1.HEX_OUT[1]
+HEX1[2] << binary_display:C1.HEX_OUT[2]
+HEX1[3] << binary_display:C1.HEX_OUT[3]
+HEX1[4] << binary_display:C1.HEX_OUT[4]
+HEX1[5] << binary_display:C1.HEX_OUT[5]
+HEX1[6] << binary_display:C1.HEX_OUT[6]
+HEX2[0] << binary_display:C2.HEX_OUT[0]
+HEX2[1] << binary_display:C2.HEX_OUT[1]
+HEX2[2] << binary_display:C2.HEX_OUT[2]
+HEX2[3] << binary_display:C2.HEX_OUT[3]
+HEX2[4] << binary_display:C2.HEX_OUT[4]
+HEX2[5] << binary_display:C2.HEX_OUT[5]
+HEX2[6] << binary_display:C2.HEX_OUT[6]
+HEX3[0] << binary_display:C3.HEX_OUT[0]
+HEX3[1] << binary_display:C3.HEX_OUT[1]
+HEX3[2] << binary_display:C3.HEX_OUT[2]
+HEX3[3] << binary_display:C3.HEX_OUT[3]
+HEX3[4] << binary_display:C3.HEX_OUT[4]
+HEX3[5] << binary_display:C3.HEX_OUT[5]
+HEX3[6] << binary_display:C3.HEX_OUT[6]
+
+
+|top|binary_display:C0
+BIN_IN => HEX_OUT[0].DATAIN
+BIN_IN => HEX_OUT[5].DATAIN
+BIN_IN => HEX_OUT[4].DATAIN
+BIN_IN => HEX_OUT[3].DATAIN
+HEX_OUT[0] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[1] <= <GND>
+HEX_OUT[2] <= <GND>
+HEX_OUT[3] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[4] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[5] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[6] <= <VCC>
+
+
+|top|binary_display:C1
+BIN_IN => HEX_OUT[0].DATAIN
+BIN_IN => HEX_OUT[5].DATAIN
+BIN_IN => HEX_OUT[4].DATAIN
+BIN_IN => HEX_OUT[3].DATAIN
+HEX_OUT[0] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[1] <= <GND>
+HEX_OUT[2] <= <GND>
+HEX_OUT[3] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[4] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[5] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[6] <= <VCC>
+
+
+|top|binary_display:C2
+BIN_IN => HEX_OUT[0].DATAIN
+BIN_IN => HEX_OUT[5].DATAIN
+BIN_IN => HEX_OUT[4].DATAIN
+BIN_IN => HEX_OUT[3].DATAIN
+HEX_OUT[0] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[1] <= <GND>
+HEX_OUT[2] <= <GND>
+HEX_OUT[3] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[4] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[5] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[6] <= <VCC>
+
+
+|top|binary_display:C3
+BIN_IN => HEX_OUT[0].DATAIN
+BIN_IN => HEX_OUT[5].DATAIN
+BIN_IN => HEX_OUT[4].DATAIN
+BIN_IN => HEX_OUT[3].DATAIN
+HEX_OUT[0] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[1] <= <GND>
+HEX_OUT[2] <= <GND>
+HEX_OUT[3] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[4] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[5] <= BIN_IN.DB_MAX_OUTPUT_PORT_TYPE
+HEX_OUT[6] <= <VCC>
+
+

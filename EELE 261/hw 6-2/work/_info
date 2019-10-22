@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Louis/Desktop/EELE 261/hw 6-1
+Eencoder_8to3_binary
+Z0 w1530327817
+Z1 dC:/Users/Louis/Desktop/EELE 261/hw 6-2
+Z2 8C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary.vhd
+Z3 FC:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary.vhd
+l0
+L1
+V_]TmYToabITU4f`lE=eWU3
+!s100 P=2j`@ll1a66]c_BHc<9h1
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1530327820
+!i10b 1
+Z6 !s108 1530327820.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary.vhd|
+Z8 !s107 C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Aencoder_8to3_binary_arch
+Z11 DEx4 work 19 encoder_8to3_binary 0 22 _]TmYToabITU4f`lE=eWU3
+l9
+L7
+VcC0[>eIC4Qee:n0fI4c>@1
+!s100 U6YfEJ]O??H6l^EHnLdS_3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Eencoder_8to3_binary_tb
+Z12 w1530326860
+R1
+Z13 8C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary_TB.vhd
+Z14 FC:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary_TB.vhd
+l0
+L1
+V6;OQoGMIK?SenWl2:IaE:0
+!s100 ?h2GZGPkB7bJkCP^VOdPF3
+R4
+32
+R5
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary_TB.vhd|
+Z16 !s107 C:/Users/Louis/Desktop/EELE 261/hw 6-2/encoder_8to3_binary_TB.vhd|
+!i113 1
+R9
+R10
+Aencoder_8to3_binary_tb_arch
+DEx4 work 22 encoder_8to3_binary_tb 0 22 6;OQoGMIK?SenWl2:IaE:0
+l19
+L4
+VY?Y4?SVWc9:a1eh8MNbYG2
+!s100 ITe_b?dZ[[<17`Y2AlQ=23
+R4
+32
+R5
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R9
+R10

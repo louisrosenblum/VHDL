@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/Louis/Desktop/EELE 367/Lab 9-2/lab_9-2_tmp_archive.qarlog
+
+Archive:	C:/Users/Louis/Desktop/EELE 367/Lab 9-2/lab_9-2_tmp_archive.qar
+Date:		Mon Feb 18 12:26:44 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/assignment_defaults.qdf
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/char_decoder.vhd
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/dflipflop.vhd
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/lab_9-2.qpf
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/top.qsf
+C:/Users/Louis/Desktop/EELE 367/Lab 9-2/top.vhd
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Feb 18 12:26:45 2019
+Source archive file:	C:/Users/Louis/Desktop/EELE 367/Lab 9-2/lab_9-2_tmp_archive.qar
+Archive was extracted into	C:/Users/Louis/Desktop/EELE 367/Lab 9-3/
+		 - successfully.

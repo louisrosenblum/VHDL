@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+Efull_adder
+Z0 w1553202314
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Louis/Desktop/EELE 367/Module 12/HW 12-1
+Z4 8C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\full_adder.vhd
+Z5 FC:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\full_adder.vhd
+l0
+L5
+VOR3K@om9Ffl1V_i2@HXOd2
+!s100 0B[JHJgD^TVGPlG@VP4Uz1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1553202319
+!i10b 1
+Z8 !s108 1553202319.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\full_adder.vhd|
+Z10 !s107 C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afull_adder_arch
+R1
+R2
+Z13 DEx4 work 10 full_adder 0 22 OR3K@om9Ffl1V_i2@HXOd2
+l19
+L10
+V:3fVa`5KHAh?6U8_=6XO>0
+!s100 BTQaCH27lY1KKDoRg4O5l0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+Z14 w1553200721
+R1
+R2
+R3
+Z15 8C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\half_adder.vhd
+Z16 FC:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\half_adder.vhd
+l0
+L4
+VJLXJa<8Cb4a7N<b0=mA1c1
+!s100 4omV3ni`9DeLTfF^PG4B70
+R6
+32
+Z17 !s110 1553202296
+!i10b 1
+Z18 !s108 1553202296.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\half_adder.vhd|
+Z20 !s107 C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\half_adder.vhd|
+!i113 1
+R11
+R12
+Ahalf_adder_arch
+R1
+R2
+DEx4 work 10 half_adder 0 22 JLXJa<8Cb4a7N<b0=mA1c1
+l11
+L9
+VeChYPUT@CegCYk8RI]MSB3
+!s100 ^YJ9<aYZVP97D0e[lXUZk3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Erca_8bit
+Z21 w1553201805
+Z22 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z23 8C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit.vhd
+Z24 FC:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit.vhd
+l0
+L6
+VN[U@chEEX`8Xz3HLFjEB23
+!s100 azXIIi7z55]f@ZbLClC0[3
+R6
+32
+R17
+!i10b 1
+R18
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit.vhd|
+Z26 !s107 C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit.vhd|
+!i113 1
+R11
+R12
+Arca_8bit_arch
+R22
+R1
+R2
+DEx4 work 8 rca_8bit 0 22 N[U@chEEX`8Xz3HLFjEB23
+l21
+L12
+VW3`o3PW<UMcd]I0c]0ZUe0
+!s100 mh2zaRTzJU[GVc8cTfh=X3
+R6
+32
+R17
+!i10b 1
+R18
+R25
+R26
+!i113 1
+R11
+R12
+Erca_8bit_tb
+Z27 w1553199679
+R22
+R1
+R2
+R3
+Z28 8C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit_TB.vhd
+Z29 FC:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit_TB.vhd
+l0
+L5
+V6ln1R5:15T[zG=FezPn[@2
+!s100 M0mB;h;zH6z[0Tz`T[GQ:0
+R6
+32
+R17
+!i10b 1
+R18
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit_TB.vhd|
+Z31 !s107 C:\Users\Louis\Desktop\EELE 367\Module 12\HW 12-1\rca_8bit_TB.vhd|
+!i113 1
+R11
+R12
+Arca_8bit_tb_arch
+R22
+R1
+R2
+DEx4 work 11 rca_8bit_tb 0 22 6ln1R5:15T[zG=FezPn[@2
+l19
+L8
+VnZzHRi]fKZg[I:gDB<8bC3
+!s100 O_TB9FF^T8G`Ih83jhf^@0
+R6
+32
+R17
+!i10b 1
+R18
+R30
+R31
+!i113 1
+R11
+R12

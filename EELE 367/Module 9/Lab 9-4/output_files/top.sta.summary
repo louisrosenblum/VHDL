@@ -1,0 +1,181 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'cnt[10]'
+Slack : -185.390
+TNS   : -2753.781
+
+Type  : Slow 1100mV 85C Model Setup 'Clock1'
+Slack : -4.603
+TNS   : -150.401
+
+Type  : Slow 1100mV 85C Model Setup 'clock_div_prec:Tick0|Clock_out'
+Slack : -4.467
+TNS   : -102.291
+
+Type  : Slow 1100mV 85C Model Hold 'clock_div_prec:Tick0|Clock_out'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Clock1'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'cnt[10]'
+Slack : 1.686
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'cnt[10]'
+Slack : -13.694
+TNS   : -262.918
+
+Type  : Slow 1100mV 85C Model Removal 'cnt[10]'
+Slack : 1.932
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'cnt[10]'
+Slack : -3.584
+TNS   : -620.037
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock1'
+Slack : -0.538
+TNS   : -26.304
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_div_prec:Tick0|Clock_out'
+Slack : -0.538
+TNS   : -25.673
+
+Type  : Slow 1100mV 0C Model Setup 'cnt[10]'
+Slack : -193.691
+TNS   : -2857.260
+
+Type  : Slow 1100mV 0C Model Setup 'Clock1'
+Slack : -4.601
+TNS   : -150.761
+
+Type  : Slow 1100mV 0C Model Setup 'clock_div_prec:Tick0|Clock_out'
+Slack : -4.288
+TNS   : -98.742
+
+Type  : Slow 1100mV 0C Model Hold 'clock_div_prec:Tick0|Clock_out'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Clock1'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'cnt[10]'
+Slack : 1.318
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'cnt[10]'
+Slack : -13.286
+TNS   : -254.938
+
+Type  : Slow 1100mV 0C Model Removal 'cnt[10]'
+Slack : 1.471
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'cnt[10]'
+Slack : -3.609
+TNS   : -609.965
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock1'
+Slack : -0.538
+TNS   : -27.208
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_div_prec:Tick0|Clock_out'
+Slack : -0.538
+TNS   : -25.390
+
+Type  : Fast 1100mV 85C Model Setup 'cnt[10]'
+Slack : -88.735
+TNS   : -1352.557
+
+Type  : Fast 1100mV 85C Model Setup 'clock_div_prec:Tick0|Clock_out'
+Slack : -2.160
+TNS   : -48.486
+
+Type  : Fast 1100mV 85C Model Setup 'Clock1'
+Slack : -1.837
+TNS   : -59.255
+
+Type  : Fast 1100mV 85C Model Hold 'clock_div_prec:Tick0|Clock_out'
+Slack : -0.023
+TNS   : -0.203
+
+Type  : Fast 1100mV 85C Model Hold 'Clock1'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'cnt[10]'
+Slack : 1.050
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'cnt[10]'
+Slack : -7.860
+TNS   : -150.280
+
+Type  : Fast 1100mV 85C Model Removal 'cnt[10]'
+Slack : 1.567
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'cnt[10]'
+Slack : -1.706
+TNS   : -251.446
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock1'
+Slack : -0.408
+TNS   : -3.484
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_div_prec:Tick0|Clock_out'
+Slack : -0.136
+TNS   : -2.807
+
+Type  : Fast 1100mV 0C Model Setup 'cnt[10]'
+Slack : -84.132
+TNS   : -1267.756
+
+Type  : Fast 1100mV 0C Model Setup 'clock_div_prec:Tick0|Clock_out'
+Slack : -1.862
+TNS   : -41.792
+
+Type  : Fast 1100mV 0C Model Setup 'Clock1'
+Slack : -1.623
+TNS   : -52.437
+
+Type  : Fast 1100mV 0C Model Hold 'clock_div_prec:Tick0|Clock_out'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Clock1'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'cnt[10]'
+Slack : 0.890
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'cnt[10]'
+Slack : -6.890
+TNS   : -131.984
+
+Type  : Fast 1100mV 0C Model Removal 'cnt[10]'
+Slack : 1.279
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'cnt[10]'
+Slack : -1.453
+TNS   : -216.848
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock1'
+Slack : -0.421
+TNS   : -3.577
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_div_prec:Tick0|Clock_out'
+Slack : -0.085
+TNS   : -1.643
+
+------------------------------------------------------------

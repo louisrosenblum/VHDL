@@ -1,0 +1,16 @@
+entity demux_1to8 is 
+port(A: in bit;
+	Sel: in bit_vector (2 downto 0);
+	F: out bit_vector(7 downto 0));
+
+end entity;
+
+architecture demux_1to8_arch of demux_1to8 is
+
+begin
+
+F(0) <= A when (Sel = "000");
+F(1) <= A when (Sel = "001");
+
+
+end architecture;
